@@ -1,0 +1,18 @@
+{
+	"name":"ffmpeg"
+	,"description":"Wrapper for ffpmeg which can read, transform and output audio streams from/to urls, files, or devices"
+	,"version":"1.0.0"
+	,"type":"pipe"
+	,"main":"./ffmpeg.pipe.js"
+	,"scope":[
+		"BetterLog"
+		,"BetterUtil.cX.objCreateFill"
+		,"BetterUtil.cX.isEmpty"
+		,"BetterUtil.cX.getFirstOfType"
+		,"BetterUtil.cX.checkType"
+		,"BetterUtil.cX.checkTypes"
+		,"BetterUtil.cpX.spawnReadable(ffmpeg)"
+    	,"BetterUtil.cpX.execFileSync(ffmpeg)"
+    	,"BetterUtil.cpX.argsToString"
+	]
+}
